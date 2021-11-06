@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet"> 
+    <title>TildeUN</title>
+</head>
+<body>
+    {{ partial "nav.html" . }}
+    <div id="content">
+        <h3 style="text-align: center;">Servidor de Linux público para estudiantes de la Universidad Nacional de Colombia.</h3>
+  
+        <h2>¿Qué es esto?</h2>
+        <p>TildeUN es un sistema unix compartido destinado a las comunidad universitaria de la Universidad Nacional. Es un espacio seguro e inclusivo para enseñar, aprender, practicar y compartir.</p>
+
+        <p>Cualquier persona puede soliciar una cuenta dentro del servidor, obtendrás acceso a una shell para ejecutar comandos dentro del servidor (vía SSH) y una página web para hacer un blog o lo que sea.</p>
+
+        <p>Creé este espacio para demostrar que se pueden hacer cosas interesantes con los computadores y que no es necesario que sean potentes, quiero que la mayor cantidad de personas aprendan a usar la línea de comandos y se diviertan conmigo.</p>
+
+        <h2>Principios</h2>
+        <ul>
+            <li><b>Minimalismo</b> - los recursos del servidor son muy limitados por lo que te pido los uses responsablemente.</li>
+            <li><b>Comunitario</b> - somos una comunidad, nos ayudamos entre todos.</li>
+            <li><b>Sin ánimo de lucro</b> - las donaciones serán destinadas exclusivamente a los gastos del servidor.</li>
+        </ul>
+
+        <h2>¿Quieres unirte?</h2>
+        <p>Si te gustaría unirte escribe un correo a <a href="mailto:santiago@forero.xyz">santiago@forero.xyz</a> dime quién eres, qué nombre de usuario te gustaría tener, cómo encontraste este proyecto y tu clave pública.</p>
+        
+        <h3>¿No sabes qué es una clave pública?</h3>
+        <p>Sigue <a href="/claves-publicas/">este tutorial</a> para conocer más de las claves públicas y generar tu propia clave.</p>
+
+        <h2>¿Dudas, preguntas o sugerencias?</h2>
+        <p>Si tienes alguna duda, pregunta o sugerencia por favor contáctame:</p>
+        <ul>
+            <li><b>Email:</b> <a href="mailto:santiago@forero.xyz">santiago@forero.xyz</a></li>
+            <li><b>IRC:</b> entra a <a href="https://web.libera.chat/#UNAL">#UNAL</a> en libera.chat o envía un mensaje privado a <b>forero</b>.</li>
+        </ul>
+
+        <h2>Donaciones</h2>
+        <p>Si te gusta lo que hago y te gustaría contribuir con los costos que me genera mantener este servidor, puedes donar, más información <a href="/donaciones/">aquí</a>.</p>
+        <p>Si no puedes contribuir monetariamente contribuye de otras maneras, por ejemplo, mejora esta página y participa en la comunidad.</p>
+        
+    </div>
+    {{ partial "footer.html" . }}
+</body>
+</html>

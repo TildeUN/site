@@ -1,0 +1,38 @@
+body {
+    background: #373b41;
+    color: #c5c8c6;
+    /*font-family: 'JetBrains Mono', monospace;*/
+}
+
+#main-nav {
+    text-align: center;
+}
+
+#main-nav h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+    user-select: none;
+}
+
+#main-nav h1 a {
+    text-decoration: none;
+    color: #c5c8c6;
+}
+
+#content {
+    width: 90%;
+    padding: 5%;
+    margin: auto;
+}
+
+#main-footer {
+    text-align: center;
+}
+
+h2 {
+    color: #b294bb;
+}
+
+a {
+    color: #b294bb;
+}
